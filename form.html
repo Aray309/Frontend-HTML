@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input</title>
+</head>
+<body>
+    <h3>Registration Form</h3>
+    <form action="">
+    <!-- Enter your Name -->
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Name"><br>
+    </div><br>
+    <!-- Enter your Email -->
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email"><br>
+    </div><br>
+    <!-- Enter your Message -->
+    <div>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="18" rows="2"></textarea><br>
+    <div><br>
+    <!-- Select  Age-->
+    <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age">
+    </div><br>
+    <!-- date of Birth -->
+    <div>
+        <label for="dateOfBirth">Date of Birth</label>
+        <input type="date" name="dateOfBirth" id="dateOfBirth">
+    </div><br>
+    <!-- Gender select -->
+    <div>
+        <label for="gender">Select Gender</label><br>
+        <input type="radio" name="gender" id="gender" value="Male">Male<br>
+        <input type="radio" name="gender" id="gender" value="Female">FeMale<br>
+        <input type="radio" name="gender" id="gender" value="Transgender">Transgender
+    </div><br>
+    <!-- Select State -->
+    <div>
+        <label for="state">Choose State</label><br>
+        <select name="state" id="state">
+            <option value="">Select Option</option>
+            <option value="assam">Assam</option>
+            <option value="bihar">Bihar</option>
+            <option value="up">UP</option>
+        </select>
+    </div><br>
+    <!-- Select Choice -->
+    <div>
+        <label for="likes">Chhose From Option</label><br>
+        <input type="checkbox" name="likes" id="likes" value="Cricket">Cricket<br>
+        <input type="checkbox" name="likes" id="likes" value="Football">Football<br>
+        <input type="checkbox" name="likes" id="likes" value="Others">Others
+    </div><br>
+    <!-- submit and Reset Button -->
+
+    <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </div>
+</form>
+</body>
+</html>
+
+<!--Inline and Block Level elements  -->
+
+<!-- Block Level Elements 
+    A block-level element always starts on a new line, and the browsers automatically
+     add some space (a margin) before and after the element.
+    <address> <article> <aside> <blockquote> <canvas>
+    <dd> <div> <dl> <dt> <fieldset> <figcaption> <figure>
+    <footer> <form> <h1> <h6> <header> <hr> <li> <main> 
+    <nav> <noscript> <ol> <p> <pre> <section> <table> <tfoot> <ul> <video> -->
+
+<!-- Inline Level Elements
+    An inline element does not start on a new line.
+    An inline element only takes up as much width as necessary. 
+
+    <a> <abbr> <acronym> <b> <bdo> <big> <br> <button>
+    <cite> <code> <dfn> <em> <i> <img> <input> <kbd> <label>
+    <map> <object> <output> <q> <samp> <script> <select> <small> <span> 
+    <strong> <sub> <sup> <textarea> <time> <tt>
+-->

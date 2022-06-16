@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>id_div_span_class</title>
+    <style>
+        .card{
+            border: 1px solid gray;
+            background: wheat;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        .spanline{
+            color: yellow;
+            background-color: black;
+        }
+    </style>
+</head>
+<!-- id is use only once it should not repeat -->
+<!-- class can be used as id but it could be repaet -->
+<!-- span is inline elements which is used for particular line -->
+<body>
+    <!-- Main Header/Shortcut #main-header, hit Enter -->
+    <div id="main-header" class="card">
+        <h1>My Website</h1>
+        
+    </div>
+    <!-- main-Nav -->
+    <div id="main-nav">
+        <p>content</p>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </div>
+    <!-- About -->
+    <div id="about" class="card">
+        <h3>About</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+            Tenetur, in. <span class="spanline">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Praesentium dolores commodi consequatur omnis facilis dolorem officiis iusto quibusdam <br>
+                 nesciunt fugit. Dolore sint doloribus voluptatum, facilis ab nulla consectetur pariatur sed.
+                </span>Veniam fuga quisquam nostrum, natus hic voluptatum omnis dolores nesciunt<br>
+            voluptatibus ipsam voluptas, placeat aliquam blanditiis obcaecati non. Doloribus, in.
+        </p>
+    </div>
+    <!-- contact -->
+    <div id="contact" class="card">
+        <h3>contact us</h3>
+        <ul>
+            <li>BTM Stage 2</li>
+            <li>Industrial Area, 560076</li>
+            <li>Mobile : 5600769087</li>
+            <li>Email : contact@email.com</li>
+        </ul>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <!-- for copy right symbol [&copy;]-->
+        <p>copyright &copy; 2022</p>
+    </div>
+</body>
+</html>
